@@ -1,0 +1,72 @@
+body {
+    padding-left: 11em;
+    color: black;
+    background-color: grey;
+    font-family: arial;
+    font-size: 22px
+}
+
+ul.navbar {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   top: 2em;
+   left: 1em;
+   width: 9em }
+
+   ul.navbar li:hover {
+     background-color: red
+     }
+
+     a:link {
+    color: blue }
+    a:visited {
+    color: purple }
+
+.leo {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+#frm1, #frm2, #frm3{
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+
+    }
+#welcomeDiv, #welcomeDiv1, #welcomeDiv2{
+  width: 200px;
+  }
+
+    #demo, #demo1, #demo2{
+      background-color: white;
+      width: 200px;
+      height: 30px;
+      padding: 5px;
+      border-style: solid;
+      border-color: black;
+
+        }
+
+.introduction {
+  width: 600px;
+  line-height: 30px;
+
+    }
+
+    .rules {
+       line-height: 30px;
+
+        }
+
+.buttonclass {
+  width: 217px;
+  height: 32px;
+  background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-50-shades-of-grey.png);
+  border-radius: 25px;
+  }
