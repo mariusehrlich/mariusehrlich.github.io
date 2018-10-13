@@ -1,28 +1,22 @@
 body {
-    padding-left: 11em;
+    padding-left: 7em;
     color: black;
     background-color: grey;
     font-family: arial;
-    font-size: 22px
+    font-size: 22px;
+    margin: 8!important;
 }
-
-ul.navbar {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-   position: absolute;
-   top: 2em;
-   left: 1em;
-   width: 9em }
 
    ul.navbar li:hover {
      background-color: red
      }
 
      a:link {
-    color: blue }
+    color: blue
+  }
     a:visited {
-    color: purple }
+    color: purple
+  }
 
 .leo {
   float: left;
@@ -32,20 +26,20 @@ ul.navbar {
 
 #frm1, #frm2, #frm3{
   background-color: white;
-  width: 200px;
-  height: 250px;
+  width: 320px;
+  height: 320px;
   padding: 5px;
   border-style: solid;
   border-color: black;
 
     }
 #welcomeDiv, #welcomeDiv1, #welcomeDiv2{
-  width: 200px;
+  width: 250px;
   }
 
     #demo, #demo1, #demo2{
       background-color: white;
-      width: 200px;
+      width: 250px;
       height: 30px;
       padding: 5px;
       border-style: solid;
@@ -56,8 +50,7 @@ ul.navbar {
 .introduction {
   width: 600px;
   line-height: 30px;
-
-    }
+}
 
     .rules {
        line-height: 30px;
@@ -65,6 +58,8 @@ ul.navbar {
         }
 
 .buttonclass {
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 217px;
   height: 32px;
   background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-50-shades-of-grey.png);

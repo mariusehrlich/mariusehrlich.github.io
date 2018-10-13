@@ -1,20 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Tool
-</title>
-<h1>Calculation Tool</h1>
-    <script src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-  <body style = "background: url(https://www.publicdomainpictures.net/pictures/60000/velka/puzzle-1379763006KP2.jpg)">
-  <ul class="navbar">
-    <li><a href="index.html">Home page</a>
-    <li><a href="tool.html">Tool</a>
-    <li><a href="game.html">Puzzle</a>
+<body style="background: url(https://www.publicdomainpictures.net/pictures/60000/velka/puzzle-1379763006KP2.jpg)">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home page</a></li>
+      <li class="active"><a href="tool.html">Tool</a></li>
+      <li><a href="game.html">Puzzle</a></li>
   </ul>
+  </div>
+</nav>
+
+<div class="container">
   <h3>Use this tool to calculate an average of four numbers!</h3>
-  <form id="frm1">
+  <form id="frm1" style="margin-right: 0px;">
     First number: <input type="text" name="fnum" value=""><br>
     Second number: <input type="text" name="snum" value=""><br>
     Third number: <input type="text" name="tnum" value=""><br>
@@ -22,16 +34,19 @@
 
   </form>
 
-<button class="buttonclass" onclick="myFunction()"> submit</button>
+  <button class="buttonclass" onclick="myFunction()"> submit</button>
 
-<p id="demo"></p>
-<br>
+  <p id="demo"></p>
+  <br>
 
-<h4>Examples for using this tool</h4>
-<ul>
-<li>Average running lap times for athletes</li>
-<li>Average calories per meal (4 meals a day)</li>
-<li>Average money spend per week in a month</li>
-</ul>
+  <h4>Examples for using this tool</h4>
+  <ul>
+  <li>Average running lap times for athletes</li>
+  <li>Average calories per meal (4 meals a day)</li>
+  <li>Average money spend per week in a month</li>
+  </ul>
+</div>
+
+
 </body>
 </html>
