@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body style="background: url(https://www.publicdomainpictures.net/pictures/60000/velka/puzzle-1379763006KP2.jpg)">
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><a href="game.html">Puzzle Game</a></div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="graphical.html">Day Trips (Graphical)</a></li>
+        <li class="active"><a href="list.html">Day Trips (List)</a><a href="game.html">Puzzle Game</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="leo">
+      <h2>Excercise 1</h2>
+      <form id="frm1"> First number: <input type="text" name="fnum" value=""><br> Second number: <input type="text" name="snum" value=""><br> Third number: <input type="text" name="tnum" value=""><br> Fourth number: <input type="text" name="fournum" value=""><br>
+      </form>
+      <button class="buttonclass" onclick="myFunction()"> submit</button>
+      <p id="demo"></p>
+      <div id="welcomeDiv" style="display:none;" class="answer_list">
+        <h4>numbers are added and divided by four. Hence, the average is calculated</h4>
+      </div>
+      <input type="button" class="buttonclass" name="answer" value="Show Answer" onclick="showDiv()">
+    </div>
+    <div class="leo">
+      <h2>Excercise 2</h2>
+      <form id="frm2"> First number: <input type="text" name="fnum" value=""><br> Second number: <input type="text" name="snum" value=""><br> Third number: <input type="text" name="tnum" value=""><br> Fourth number: <input type="text" name="fournum" value=""><br>
+      </form>
+      <button class="buttonclass" onclick="myFunction2()"> submit</button>
+      <p id="demo1"></p>
+      <div id="welcomeDiv1" style="display:none;" class="answer_list">
+        <h4>Its just simple addition, I hope you figured that out</h4>
+      </div>
+      <input type="button" class="buttonclass" name="answer" value="Show Answer" onclick="showDiv1()">
+    </div>
+    <div class="leo">
+      <h2>Excercise 3</h2>
+      <form id="frm3"> First number: <input type="text" name="fnum" value=""><br> Second number: <input type="text" name="snum" value=""><br> Third number: <input type="text" name="tnum" value=""><br> Fourth number: <input type="text" name="fournum" value=""><br>
+      </form>
+      <button class="buttonclass" onclick="myFunction3()"> submit</button>
+      <p id="demo2"></p>
+      <div id="welcomeDiv2" style="display:none;" class="answer_list">
+        <h4>A bit tricky: number are added, 7 is subtracted from the final result.</h4>
+      </div>
+      <input type="button" class="buttonclass" name="answer" value="Show Answer" onclick="showDiv2()">
+    </div>
+  </div>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
